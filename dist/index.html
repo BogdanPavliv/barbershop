@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+
+    <meta name="description" content="Barbershop Gallery store & more"> 
+    <meta name="keywords" content="Barbershop Gallery"> 
+
+    <meta property="og:title" content="Barbershop Gallery store & more">
+    <meta property="og:description" content="Barbershop Gallery store & more">
+    <meta property="og:image" content="images/slide-3.jpg">
+
+    <link rel="apple-touch-icon" sizes="60x60" href="./images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="150x150" href="./images/favicon/mstile-150x150.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="./images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Barbershop Gallery store & more</title>
+</head>
+<body>
+<div class="wrapper">
+    
+<header class="header header-main">
+    <div class="container">
+            <div class="header__wrapper">
+                <div class="header__inner">
+                    <a href="#" class="header__logo" aria-label="Logo">
+                        <picture class="header__logo--wrapper">
+                            <source srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-srcset="./images/icons/logo-mobile.svg" media="(max-width: 635px)">
+                            <img class="header__logo--img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/icons/logo.svg" alt="Logo" width="69" height="56">
+                        </picture>
+                    </a>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__list-item">
+                                <a data-goto=".about__section" href="#" class="menu__list-link">Про нас</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a data-goto=".services__section" href="#" class="menu__list-link">Послуги та ціни</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a data-goto=".barbers__section" href="#" class="menu__list-link">Барбери</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a data-goto=".contacts__section" href="#" class="menu__list-link">Контакти</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__contacts">
+                        <a href="tel:+380441111111" class="contacts--phone" aria-label="Phone number">+38 044 111 11 11</a>
+                        <a data-goto=".contacts__section" href="#" class="menu__list-link contacts--button" aria-label="Забронювати">Забронювати</a>
+                        <div class="menu__btn-hamburger">
+                            <button class="menu__btn" aria-label="Menu button">
+                                <span class="nav-icon"></span>
+                            </button> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</header>
+<div class="mobile-nav-overlay">
+    <div class="mobile-nav">
+        <ul class="mobile-nav__list">
+            <li><a data-goto=".about__section" href="#" class="menu__list-link">Про нас</a></li>
+            <li><a data-goto=".services__section" href="#" class="menu__list-link">Послуги та ціни</a></li>
+            <li><a data-goto=".barbers__section" href="#" class="menu__list-link">Барбери</a></li>
+            <li><a data-goto=".contacts__section" href="#" class="menu__list-link">Контакти</a></li>
+            <li><a href="tel:+380441111111" class="contacts--phone" aria-label="Phone number">+38 044 111 11 11</a></li>
+            <li><a data-goto=".contacts__section" href="#" class="menu__list-link contacts--button menu--button" aria-label="Забронювати">Забронювати</a></li>
+        </ul>
+        <ul class="links-wrapper">
+            <li><a href="https://www.instagram.com/" class="link-instagram" aria-label="Instagram" target="_blank">Instagram</a></li>
+            <li><a href="https://www.youtube.com/" class="link-youtube" aria-label="Youtube" target="_blank">Youtube</a></li>
+        </ul>
+    </div>
+</div>
+
+
+<main class="main">
+  <section class="top top__section">
+    <div class="top__wrapper">
+      <div class="top__wrapper--inner">
+        <h3 class="text-suptext headline-left">Чоловіча перукарня в Києві</h3>
+        <h1 class="top__wrapper--title animate__animated animate__fadeIn animate__delay-1s">BarberShop</h1>
+        <div class="top__wrapper--subtitle animate__animated animate__fadeIn animate__delay-2s">
+          Ми є експертами в модних чоловічих стрижках. <br>
+          Працюємо швидко, акуратно та стильно.
+        </div>
+      </div>
+    </div>
+    <div class="top__buttons">
+      <button class="top__buttons--back" aria-label="Back slider button"></button>
+      <button class="top__buttons--forward" aria-label="Forward slider button"></button>
+    </div>
+  </section>
+  <div class="slider">
+    <div class="container">
+      <div class="swiper__inner">
+        <div class="swiper__aside">
+          <div class="swiper__aside--links">
+            <ul class="links-wrapper">
+              <li><a href="https://www.instagram.com/" class="link-instagram" aria-label="Instagram" target="_blank">Instagram</a></li>
+              <li><a href="https://www.youtube.com/" class="link-youtube" aria-label="Youtube" target="_blank">Youtube</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="swiper__tabs-content">
+          <div id="tab-back" class="swiper__tabs-content-item">
+            <div class="swiper-back">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide lazy" data-src="images/slider/slide-3.webp" data-src-replace-webp="images/slider/slide-3.jpg"></div>
+                <div class="swiper-slide lazy" data-src="images/slider/slide-2.webp" data-src-replace-webp="images/slider/slide-2.jpg"></div>
+                <div class="swiper-slide lazy" data-src="images/slider/slide-1.webp" data-src-replace-webp="images/slider/slide-1.jpg"></div>
+              </div>
+              <div class="swiper-pagination-back"></div>
+            </div>
+          </div>
+          <div id="tab-forward" class="swiper__tabs-content-item">
+            <div class="swiper-forward">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide lazy" data-src="images/slider/slide-1.webp" data-src-replace-webp="images/slider/slide-1.jpg"></div>
+                <div class="swiper-slide lazy" data-src="images/slider/slide-2.webp" data-src-replace-webp="images/slider/slide-2.jpg"></div>
+                <div class="swiper-slide lazy" data-src="images/slider/slide-3.webp" data-src-replace-webp="images/slider/slide-3.jpg"></div>
+              </div>
+              <div class="swiper-pagination-forward"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper__tabs">
+          <div class="swiper__tabs-triggers">
+            <div class="swiper__tabs-triggers-item-wrapper back">
+              <a href="#tab-back" class="swiper__tabs-triggers-item">Назад</a>
+            </div>
+            <div class="swiper__tabs-triggers-item-wrapper forward">
+              <a href="#tab-forward" class="swiper__tabs-triggers-item"
+                >Вперед</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="about about__section">
+    <div class="container">
+      <div class="about__inner">
+        <div class="about__picture">
+          <div class="about__picture-wrapper">
+            <picture class="about__picture-wrapper-img">
+              <source type="image/webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-srcset="./images/section-about/about-img-mobile-1.webp" media="(max-width: 768px)">
+              <source type="image/webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-srcset="./images/section-about/about-img-1.webp">
+              <img class="about__picture-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/section-about/about-img-1.jpg" alt="about-img-1">
+            </picture>
+          </div>
+          <div class="about__picture-wrapper">
+            <picture class="about__picture-wrapper-img">
+              <source type="image/webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-srcset="./images/section-about/about-img-mobile-2.webp" media="(max-width: 768px)">
+              <source type="image/webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-srcset="./images/section-about/about-img-2.webp">
+              <img class="about__picture-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/section-about/about-img-2.jpg" alt="about-img-2">
+            </picture>
+          </div>
+        </div>
+        <div class="about__textcontent">
+          <h3 class="text-suptext headline-left">Про нас</h3>
+          <h1 class="text-title">Найкращий барбершоп у місті</h1>
+          <div class="text-subtitle">
+            Якщо ви хочете додати своєму іміджу впевненості, вам обов'язково варто завітати до нас.
+          </div>
+          <div class="text">
+            <p>
+              Ми - команда, яка ніколи не зупиняється на досягнутому і завжди спрагла до змін. І коли ви потрапляєте до нашого майстра, ви вже ніколи не будете такими самими. Ми - команда, що завжди "на одній хвилі" з клієнтами. Тому ми завжди готові поліпшувати кожного, хто приходить до нас!
+            </p>
+          </div>
+          <a data-goto=".contacts__section" href="#" class="menu__list-link contacts--button">Забронювати</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="services services__section lazy" data-src="./images/section-services/services-bg.webp" data-src-replace-webp="./images/section-services/services-bg.png">
+    <div class="container">
+      <div class="services__wrapper">
+        <h3 class="text-suptext headline-left">
+          Проводьте час з кращими майстрами.
+        </h3>
+        <h2 class="text-title">Послуги та ціни</h2>
+        <div class="services__inner">
+          <div class="services__card">
+            <ul class="services__card-list left">
+              <li class="services__card-item">
+                <div class="services__card-item-content">
+                  <div class="services__card-item-service">Чоловіча стрижка</div>
+                  <div class="services__card-item-devider"></div>
+                  <div class="services__card-item-price">від 300 грн.</div>
+                </div>
+              </li>
+              <li class="services__card-item">
+                <div class="services__card-item-content">
+                  <div class="services__card-item-service">Стрижка бороди</div>
+                  <div class="services__card-item-devider"></div>
+                  <div class="services__card-item-price">від 300 грн.</div>
+                </div>
+              </li>
+              <li class="services__card-item">
+                <div class="services__card-item-content">
+                  <div class="services__card-item-service">Стрижка вусів</div>
+                  <div class="services__card-item-devider"></div>
+                  <div class="services__card-item-price">від 200 грн.</div>
+                </div>
+              </li>
+              <li class="services__card-item">
+                <div class="services__card-item-content">
+                  <div class="services__card-item-service">Гоління прямою бритвою</div>
+                  <div class="services__card-item-devider"></div>
+                  <div class="services__card-item-price">від 200 грн.</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="services__card">
+            <ul class="services__card-list right">
+              <li class="services__card-item">
+                <div class="services__card-item-content">
+                  <div class="services__card-item-service">Стрижка стажера</div>
+                  <div class="services__card-item-devider"></div>
+                  <div class="services__card-item-price">від 50 грн.</div>
+                </div>
+              </li>
+              <li class="services__card-item">
+                <div class="services__card-item-content">
+                  <div class="services__card-item-service">Стрижка під насадку</div>
+                  <div class="services__card-item-devider"></div>
+                  <div class="services__card-item-price">від 200 грн.</div>
+                </div>
+              </li>
+              <li class="services__card-item">
+                <div class="services__card-item-content">
+                  <div class="services__card-item-service">
+                    Дитяча стрижка (0-12 років)
+                  </div>
+                  <div class="services__card-item-devider"></div>
+                  <div class="services__card-item-price">від 300 грн.</div>
+                </div>
+              </li>
+              <li class="services__card-item">
+                <div class="services__card-item-content">
+                  <div class="services__card-item-service">
+                    Камуфляж сивого волосся
+                  </div>
+                  <div class="services__card-item-devider"></div>
+                  <div class="services__card-item-price">від 200 грн.</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="services__btn">
+          <a data-goto=".contacts__section" href="#" class="menu__list-link contacts--button">Забронювати</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="why-people why-people__section">
+    <div class="container">
+      <div class="why-people__inner">
+        <div class="why-people__achievement">
+
+          <div class="why-people__achievement-row achievement-row-transform">
+
+            <div class="why-people__achievement-item wow animate__animated animate__fadeInLeftBig animated"  data-wow-delay=".1s">
+              <div class="why-people__achievement-number ">600</div>
+              <div class="why-people__achievement-text">
+                Задоволених клієнтів за день
+              </div>
+            </div>
+
+            <div class="why-people__achievement-item wow animate__animated animate__fadeInLeftBig animated" data-wow-delay=".3s">
+              <div class="why-people__achievement-number">20</div>
+              <div class="why-people__achievement-text">
+                Найкращі перукарі <br>
+                Києва
+              </div>
+            </div>
+
+          </div>
+
+          <div class="why-people__achievement-row">
+
+            <div class="why-people__achievement-item wow animate__animated animate__fadeInRightBig animated" data-wow-delay=".2s">
+              <div class="why-people__achievement-number">50</div>
+              <div class="why-people__achievement-text">
+                Нагороди за відмінне обслуговування
+              </div>
+            </div>
+  
+  
+            <div class="why-people__achievement-item wow animate__animated animate__fadeInRightBig animated" data-wow-delay=".4s">
+              <div class="why-people__achievement-number">100</div>
+              <div class="why-people__achievement-text">
+                Подарунки для постійних клієнтів
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="why-people__textcontent">
+          <h3 class="text-suptext headline-left">Стара традиційна школа</h3>
+          <h2 class="text-title">¿Чому люди приходять до нас?</h2>
+          <div class="text-subtitle">
+            Про нас говорять лише хороші речі. Але краще 1 раз побачити і відчути, ніж прочитати 10 разів.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="barbers barbers__section">
+    <div class="container">
+      <div class="barbers__wrapper">
+        <h3 class="text-suptext headline-left">
+          Для справжніх любителів атмосфери
+        </h3>
+        <h2 class="text-title">Наші барбери</h2>
+        <div class="barbers__inner">
+          <div class="barbers__inner-item">
+            <div class="barbers__inner-img-wrapper">
+              <picture>
+                <source type="image/webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-srcset="./images/section-barbers/ourbarbers-img-1.webp">
+                <img class="barbers__inner-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/section-barbers/ourbarbers-img-1.jpg" alt="ourbarbers-1">
+              </picture>
+            </div>
+            <div class="barbers__inner-content">
+              <div class="barbers__inner-name">Володимир Колесников</div>
+              <div class="barbers__inner-role">Ambassador</div>
+              <div class="barbers__inner-socials">
+                <a class="barbers__inner-instagram" href="https://www.instagram.com/" aria-label="Instagram" target="_blank">
+                  <svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1374_261)" fill="#303030">
+                      <path d="M19.98 5.88c-.046-1.063-.218-1.793-.464-2.426a4.88 4.88 0 00-1.157-1.774 4.922 4.922 0 00-1.77-1.153C15.952.281 15.226.11 14.163.063 13.093.012 12.753 0 10.037 0 7.322 0 6.982.012 5.915.059 4.853.105 4.122.277 3.49.523A4.88 4.88 0 001.715 1.68 4.924 4.924 0 00.563 3.45C.316 4.087.145 4.813.098 5.876c-.051 1.07-.063 1.41-.063 4.126 0 2.715.012 3.055.059 4.122.047 1.063.219 1.793.465 2.426a4.932 4.932 0 001.156 1.774 4.92 4.92 0 001.77 1.152c.637.247 1.364.419 2.426.465 1.067.047 1.407.059 4.122.059 2.716 0 3.056-.012 4.122-.059 1.063-.046 1.793-.218 2.426-.464a5.116 5.116 0 002.927-2.927c.246-.637.418-1.364.465-2.426.047-1.067.058-1.407.058-4.122s-.004-3.055-.05-4.122zm-1.8 8.166c-.044.977-.208 1.504-.344 1.856a3.318 3.318 0 01-1.9 1.898c-.35.137-.882.301-1.855.344-1.055.047-1.371.059-4.04.059-2.668 0-2.989-.012-4.04-.059-.977-.043-1.504-.207-1.856-.344a3.077 3.077 0 01-1.148-.746 3.11 3.11 0 01-.747-1.148c-.136-.352-.3-.883-.343-1.856-.047-1.055-.059-1.372-.059-4.04 0-2.669.012-2.99.059-4.04.043-.977.207-1.504.343-1.856A3.04 3.04 0 013 2.965a3.105 3.105 0 011.15-.746c.35-.137.882-.3 1.855-.344 1.055-.046 1.372-.058 4.04-.058 2.672 0 2.989.012 4.04.058.977.043 1.504.207 1.856.344.433.16.828.414 1.148.746.332.325.586.715.747 1.15.136.35.3.882.343 1.855.047 1.055.059 1.371.059 4.04 0 2.668-.012 2.98-.059 4.036z"/>
+                      <path d="M10.037 4.864A5.139 5.139 0 004.9 10.002a5.139 5.139 0 105.138-5.138zm0 8.47a3.333 3.333 0 11.001-6.666 3.333 3.333 0 010 6.667zm6.541-8.673a1.2 1.2 0 11-2.4 0 1.2 1.2 0 012.4 0z"/>
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1374_261">
+                        <path fill="#fff" d="M0 0h20v20H0z" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </a>
+                <a class="barbers__inner-twitter" href="https://www.twitter.com/" aria-label="Twitter" target="_blank">
+                  <svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1374_255)">
+                      <path d="M20 3.799a8.549 8.549 0 01-2.363.647 4.077 4.077 0 001.804-2.266 8.192 8.192 0 01-2.6.992A4.099 4.099 0 009.75 5.976c0 .325.027.638.095.935-3.409-.166-6.425-1.8-8.451-4.288A4.128 4.128 0 00.83 4.694c0 1.42.732 2.679 1.821 3.407A4.05 4.05 0 01.8 7.597v.045a4.119 4.119 0 003.285 4.03 4.09 4.09 0 01-1.075.134c-.262 0-.527-.015-.776-.07.531 1.624 2.038 2.818 3.831 2.856a8.238 8.238 0 01-5.084 1.75A7.67 7.67 0 010 16.284a11.543 11.543 0 006.29 1.84c7.545 0 11.67-6.25 11.67-11.668 0-.18-.006-.356-.015-.53A8.179 8.179 0 0020 3.8z" fill="#303030"/>
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1374_255">
+                        <path fill="#fff" d="M0 0h20v20H0z" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </a>
+                <a class="barbers__inner-facebook" href="https://www.facebook.com/" aria-label="Facebook" target="_blank">
+                  <svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13.331 3.32h1.826V.14a23.576 23.576 0 00-2.66-.14C9.865 0 8.061 1.656 8.061 4.7v2.8H5.156v3.555h2.905V20h3.562v-8.944h2.787l.443-3.555h-3.23V5.05c0-1.027.277-1.73 1.708-1.73z" fill="#303030"/>
+                  </svg>
+                </a>
+                <a class="barbers__inner-linkedin" href="https://www.linkedin.com/" aria-label="Linkedin" target="_blank">
+                  <svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1374_245)" fill="#303030">
+                      <path d="M19.995 20H20v-7.336c0-3.588-.772-6.352-4.967-6.352-2.017 0-3.37 1.106-3.923 2.156h-.058V6.647H7.074v13.352h4.142v-6.611c0-1.741.33-3.425 2.486-3.425 2.124 0 2.156 1.987 2.156 3.536V20h4.137zM.33 6.647h4.147V20H.33V6.647zM2.402 0A2.402 2.402 0 000 2.402c0 1.325 1.076 2.424 2.402 2.424 1.325 0 2.401-1.098 2.401-2.424A2.403 2.403 0 002.402 0z" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1374_245">
+                        <path fill="#fff" d="M0 0h20v20H0z" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="barbers__inner-item">
+            <div class="barbers__inner-img-wrapper">
+              <picture>
+                <source type="image/webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-srcset="./images/section-barbers/ourbarbers-img-2.webp">
+                <img class="barbers__inner-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/section-barbers/ourbarbers-img-2.jpg" alt="ourbarbers-2">
+              </picture>
+            </div>
+            <div class="barbers__inner-content">
+              <div class="barbers__inner-name">Олександр Бондаренко</div>
+              <div class="barbers__inner-role">Prime-майстер</div>
+              <div class="barbers__inner-socials">
+                <a class="barbers__inner-instagram" href="https://www.instagram.com/" aria-label="Instagram" target="_blank">
+                  <svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1374_261)" fill="#303030">
+                      <path d="M19.98 5.88c-.046-1.063-.218-1.793-.464-2.426a4.88 4.88 0 00-1.157-1.774 4.922 4.922 0 00-1.77-1.153C15.952.281 15.226.11 14.163.063 13.093.012 12.753 0 10.037 0 7.322 0 6.982.012 5.915.059 4.853.105 4.122.277 3.49.523A4.88 4.88 0 001.715 1.68 4.924 4.924 0 00.563 3.45C.316 4.087.145 4.813.098 5.876c-.051 1.07-.063 1.41-.063 4.126 0 2.715.012 3.055.059 4.122.047 1.063.219 1.793.465 2.426a4.932 4.932 0 001.156 1.774 4.92 4.92 0 001.77 1.152c.637.247 1.364.419 2.426.465 1.067.047 1.407.059 4.122.059 2.716 0 3.056-.012 4.122-.059 1.063-.046 1.793-.218 2.426-.464a5.116 5.116 0 002.927-2.927c.246-.637.418-1.364.465-2.426.047-1.067.058-1.407.058-4.122s-.004-3.055-.05-4.122zm-1.8 8.166c-.044.977-.208 1.504-.344 1.856a3.318 3.318 0 01-1.9 1.898c-.35.137-.882.301-1.855.344-1.055.047-1.371.059-4.04.059-2.668 0-2.989-.012-4.04-.059-.977-.043-1.504-.207-1.856-.344a3.077 3.077 0 01-1.148-.746 3.11 3.11 0 01-.747-1.148c-.136-.352-.3-.883-.343-1.856-.047-1.055-.059-1.372-.059-4.04 0-2.669.012-2.99.059-4.04.043-.977.207-1.504.343-1.856A3.04 3.04 0 013 2.965a3.105 3.105 0 011.15-.746c.35-.137.882-.3 1.855-.344 1.055-.046 1.372-.058 4.04-.058 2.672 0 2.989.012 4.04.058.977.043 1.504.207 1.856.344.433.16.828.414 1.148.746.332.325.586.715.747 1.15.136.35.3.882.343 1.855.047 1.055.059 1.371.059 4.04 0 2.668-.012 2.98-.059 4.036z"/>
+                      <path d="M10.037 4.864A5.139 5.139 0 004.9 10.002a5.139 5.139 0 105.138-5.138zm0 8.47a3.333 3.333 0 11.001-6.666 3.333 3.333 0 010 6.667zm6.541-8.673a1.2 1.2 0 11-2.4 0 1.2 1.2 0 012.4 0z"/>
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1374_261">
+                        <path fill="#fff" d="M0 0h20v20H0z" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </a>
+                <a class="barbers__inner-twitter" href="https://www.twitter.com/" aria-label="Twitter" target="_blank">
+                  <svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1374_255)">
+                      <path d="M20 3.799a8.549 8.549 0 01-2.363.647 4.077 4.077 0 001.804-2.266 8.192 8.192 0 01-2.6.992A4.099 4.099 0 009.75 5.976c0 .325.027.638.095.935-3.409-.166-6.425-1.8-8.451-4.288A4.128 4.128 0 00.83 4.694c0 1.42.732 2.679 1.821 3.407A4.05 4.05 0 01.8 7.597v.045a4.119 4.119 0 003.285 4.03 4.09 4.09 0 01-1.075.134c-.262 0-.527-.015-.776-.07.531 1.624 2.038 2.818 3.831 2.856a8.238 8.238 0 01-5.084 1.75A7.67 7.67 0 010 16.284a11.543 11.543 0 006.29 1.84c7.545 0 11.67-6.25 11.67-11.668 0-.18-.006-.356-.015-.53A8.179 8.179 0 0020 3.8z" fill="#303030"/>
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1374_255">
+                        <path fill="#fff" d="M0 0h20v20H0z" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </a>
+                <a class="barbers__inner-facebook" href="https://www.facebook.com/" aria-label="Facebook" target="_blank">
+                  <svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13.331 3.32h1.826V.14a23.576 23.576 0 00-2.66-.14C9.865 0 8.061 1.656 8.061 4.7v2.8H5.156v3.555h2.905V20h3.562v-8.944h2.787l.443-3.555h-3.23V5.05c0-1.027.277-1.73 1.708-1.73z" fill="#303030"/>
+                  </svg>
+                </a>
+                <a class="barbers__inner-linkedin" href="https://www.linkedin.com/" aria-label="Linkedin" target="_blank">
+                  <svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1374_245)" fill="#303030">
+                      <path d="M19.995 20H20v-7.336c0-3.588-.772-6.352-4.967-6.352-2.017 0-3.37 1.106-3.923 2.156h-.058V6.647H7.074v13.352h4.142v-6.611c0-1.741.33-3.425 2.486-3.425 2.124 0 2.156 1.987 2.156 3.536V20h4.137zM.33 6.647h4.147V20H.33V6.647zM2.402 0A2.402 2.402 0 000 2.402c0 1.325 1.076 2.424 2.402 2.424 1.325 0 2.401-1.098 2.401-2.424A2.403 2.403 0 002.402 0z" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1374_245">
+                        <path fill="#fff" d="M0 0h20v20H0z" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="barbers__inner-item">
+            <div class="barbers__inner-img-wrapper">
+              <picture>
+                <source type="image/webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-srcset="./images/section-barbers/ourbarbers-img-3.webp">
+                <img class="barbers__inner-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/section-barbers/ourbarbers-img-3.jpg" alt="ourbarbers-3">
+              </picture>
+            </div>
+            <div class="barbers__inner-content">
+              <div class="barbers__inner-name">Дмитро Озорович</div>
+              <div class="barbers__inner-role">Prime-майстер</div>
+              <div class="barbers__inner-socials">
+                <a class="barbers__inner-instagram" href="https://www.instagram.com/" aria-label="Instagram" target="_blank">
+                  <svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1374_261)" fill="#303030">
+                      <path d="M19.98 5.88c-.046-1.063-.218-1.793-.464-2.426a4.88 4.88 0 00-1.157-1.774 4.922 4.922 0 00-1.77-1.153C15.952.281 15.226.11 14.163.063 13.093.012 12.753 0 10.037 0 7.322 0 6.982.012 5.915.059 4.853.105 4.122.277 3.49.523A4.88 4.88 0 001.715 1.68 4.924 4.924 0 00.563 3.45C.316 4.087.145 4.813.098 5.876c-.051 1.07-.063 1.41-.063 4.126 0 2.715.012 3.055.059 4.122.047 1.063.219 1.793.465 2.426a4.932 4.932 0 001.156 1.774 4.92 4.92 0 001.77 1.152c.637.247 1.364.419 2.426.465 1.067.047 1.407.059 4.122.059 2.716 0 3.056-.012 4.122-.059 1.063-.046 1.793-.218 2.426-.464a5.116 5.116 0 002.927-2.927c.246-.637.418-1.364.465-2.426.047-1.067.058-1.407.058-4.122s-.004-3.055-.05-4.122zm-1.8 8.166c-.044.977-.208 1.504-.344 1.856a3.318 3.318 0 01-1.9 1.898c-.35.137-.882.301-1.855.344-1.055.047-1.371.059-4.04.059-2.668 0-2.989-.012-4.04-.059-.977-.043-1.504-.207-1.856-.344a3.077 3.077 0 01-1.148-.746 3.11 3.11 0 01-.747-1.148c-.136-.352-.3-.883-.343-1.856-.047-1.055-.059-1.372-.059-4.04 0-2.669.012-2.99.059-4.04.043-.977.207-1.504.343-1.856A3.04 3.04 0 013 2.965a3.105 3.105 0 011.15-.746c.35-.137.882-.3 1.855-.344 1.055-.046 1.372-.058 4.04-.058 2.672 0 2.989.012 4.04.058.977.043 1.504.207 1.856.344.433.16.828.414 1.148.746.332.325.586.715.747 1.15.136.35.3.882.343 1.855.047 1.055.059 1.371.059 4.04 0 2.668-.012 2.98-.059 4.036z"/>
+                      <path d="M10.037 4.864A5.139 5.139 0 004.9 10.002a5.139 5.139 0 105.138-5.138zm0 8.47a3.333 3.333 0 11.001-6.666 3.333 3.333 0 010 6.667zm6.541-8.673a1.2 1.2 0 11-2.4 0 1.2 1.2 0 012.4 0z"/>
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1374_261">
+                        <path fill="#fff" d="M0 0h20v20H0z" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </a>
+                <a class="barbers__inner-twitter" href="https://www.twitter.com/" aria-label="Twitter" target="_blank">
+                  <svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1374_255)">
+                      <path d="M20 3.799a8.549 8.549 0 01-2.363.647 4.077 4.077 0 001.804-2.266 8.192 8.192 0 01-2.6.992A4.099 4.099 0 009.75 5.976c0 .325.027.638.095.935-3.409-.166-6.425-1.8-8.451-4.288A4.128 4.128 0 00.83 4.694c0 1.42.732 2.679 1.821 3.407A4.05 4.05 0 01.8 7.597v.045a4.119 4.119 0 003.285 4.03 4.09 4.09 0 01-1.075.134c-.262 0-.527-.015-.776-.07.531 1.624 2.038 2.818 3.831 2.856a8.238 8.238 0 01-5.084 1.75A7.67 7.67 0 010 16.284a11.543 11.543 0 006.29 1.84c7.545 0 11.67-6.25 11.67-11.668 0-.18-.006-.356-.015-.53A8.179 8.179 0 0020 3.8z" fill="#303030"/>
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1374_255">
+                        <path fill="#fff" d="M0 0h20v20H0z" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </a>
+                <a class="barbers__inner-facebook" href="https://www.facebook.com/" aria-label="Facebook" target="_blank">
+                  <svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13.331 3.32h1.826V.14a23.576 23.576 0 00-2.66-.14C9.865 0 8.061 1.656 8.061 4.7v2.8H5.156v3.555h2.905V20h3.562v-8.944h2.787l.443-3.555h-3.23V5.05c0-1.027.277-1.73 1.708-1.73z" fill="#303030"/>
+                  </svg>
+                </a>
+                <a class="barbers__inner-linkedin" href="https://www.linkedin.com/" aria-label="Linkedin" target="_blank">
+                  <svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1374_245)" fill="#303030">
+                      <path d="M19.995 20H20v-7.336c0-3.588-.772-6.352-4.967-6.352-2.017 0-3.37 1.106-3.923 2.156h-.058V6.647H7.074v13.352h4.142v-6.611c0-1.741.33-3.425 2.486-3.425 2.124 0 2.156 1.987 2.156 3.536V20h4.137zM.33 6.647h4.147V20H.33V6.647zM2.402 0A2.402 2.402 0 000 2.402c0 1.325 1.076 2.424 2.402 2.424 1.325 0 2.401-1.098 2.401-2.424A2.403 2.403 0 002.402 0z" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1374_245">
+                        <path fill="#fff" d="M0 0h20v20H0z" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+
+    </div>
+  </section>
+  <section class="gallery gallery__section">
+    <div class="container">
+      <div class="gallery__wrapper">
+        <h3 class="text-suptext headline-left">
+          Латинською мовою "barba" означає "борода"
+        </h3>
+        <div class="gallery__inner">
+          <div class="gallery__inner-item">
+            <a data-fslightbox="gal" href="./images/section-gallery/means-beard-img-1.jpg">
+              <picture>
+                <source type="image/webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-srcset="./images/section-gallery/means-beard-img-1.webp">
+                <img class="gallery__inner-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/section-gallery/means-beard-img-1.jpg" alt="means-beard-img-1" width="270" height="360">
+              </picture>
+            </a>
+          </div>
+          <div class="gallery__inner-item">
+            <a data-fslightbox="gal" href="./images/section-gallery/means-beard-img-2.jpg">
+              <picture>
+                <source type="image/webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-srcset="./images/section-gallery/means-beard-img-2.webp">
+                <img class="gallery__inner-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/section-gallery/means-beard-img-2.jpg" alt="means-beard-img-2" width="270" height="360">
+              </picture>
+            </a>
+          </div>
+          <div class="gallery__inner-item">
+            <a data-fslightbox="gal" href="./images/section-gallery/means-beard-img-3.jpg">
+              <picture>
+                <source type="image/webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-srcset="./images/section-gallery/means-beard-img-3.webp">
+                <img class="gallery__inner-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/section-gallery/means-beard-img-3.jpg" alt="means-beard-img-3" width="270" height="360">
+              </picture>
+            </a>
+            
+          </div>
+          <div class="gallery__inner-item">
+            <a data-fslightbox="gal" href="./images/section-gallery/means-beard-img-4.jpg">
+              <picture>
+                <source type="image/webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-srcset="./images/section-gallery/means-beard-img-4.webp">
+                <img class="gallery__inner-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/section-gallery/means-beard-img-4.jpg" alt="means-beard-img-4" width="270" height="360">
+              </picture>
+            </a>
+          </div>
+        </div>
+      </div>
+     
+    </div>
+  </section>
+  <section class="contacts contacts__section lazy" data-src="./images/section-contacts/contacts-bg.webp" data-src-replace-webp="./images/section-contacts/contacts-bg.png">
+    <div class="container">
+      <div class="contacts__inner">
+        <div class="contacts__form">
+          <h2 class="text-title">Забронювати</h2>
+          <form class="form" id="form" action="#">           
+            <input class="form__input _req" id="formName" autocomplete="off" data-value="" type="text" name="name" placeholder="Ім'я*">
+            <input class="form__input _req _phone" id="formPhone" autocomplete="off" data-value="" type="text" name="phone" placeholder="Телефон*">
+            <textarea class="form__textarea" id="formMessage" data-value="" name="message" cols="30" rows="10" placeholder="Повідомлення"></textarea>
+            <button class="menu__list-link contacts--button form__btn" type="submit">Відправити</button>
+          </form>
+        </div>
+        <div class="contacts__address">
+          <h2 class="text-title">Контакти</h2>
+          <div class="contacts__address-wrapper">
+            <ul class="contacts__address-list">
+              <li class="contacts__address-list-item">
+                <div class="contacts__address-list-item-content address"><a class="address-link" href="https://www.google.com/maps/place/%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%BA%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0,+7,+%D0%9A%D0%B8%D1%97%D0%B2,+02000/@50.3958996,30.5004504,16.75z/data=!4m6!3m5!1s0x40d4c8c951889799:0x58e0259a6e5b738d!8m2!3d50.3958107!4d30.5036017!16s%2Fg%2F11fkdmxmts?authuser=0&entry=ttu" target="_blank" aria-label="Address">вул. Васильківська, 7А <br> Київ, 08132</a></div>
+              </li>
+              <li class="contacts__address-list-item">
+                <div class="contacts__address-list-item-content phone"><a class="phone-link" href="tel:+380441111111" aria-label="Phone number">+38 044 111 11 11</a></div>
+              </li>
+              <li class="contacts__address-list-item">
+                <div class="contacts__address-list-item-content email"><a class="email-link" href="mailto:barbershop@gmail.com" aria-label="Email">barbershop@gmail.com</a></div>
+              </li>
+            </ul>
+            <div class="contacts__workinghours">
+              <div class="text-suptext headline-left">Години роботи</div>
+              <div class="contacts__workinghours-text">Кожен день з 9:00 до 22:00</div>
+            </div>
+          </div>    
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="footer__inner">
+
+            <div class="footer__copy">
+
+                <img class="footer__copy-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/icons/copy.svg" alt="Copy" width="12" height="12">
+
+                Copyright 2022
+
+            </div>
+
+            <div class="footer__socials">
+
+                <ul class="links-wrapper">
+
+                    <li><a href="https://www.instagram.com/" class="link-instagram" aria-label="Instagram" target="_blank">Instagram</a></li>
+
+                    <li><a href="https://www.youtube.com/" class="link-youtube" aria-label="Youtube" target="_blank">Youtube</a></li>
+
+                  </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+</div>
+
+<script src="js/main.min.js"></script>
+
+</body>
+
+
+
+</html>

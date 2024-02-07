@@ -1,0 +1,27 @@
+/* ==================================================================================== */
+
+html,body{
+    height: 100%;
+    line-height: 1;
+    font-size: 18px;
+    background-color: #fff;
+    color: #555;
+    font-family: 'Open-Sans-regular', sans-serif;
+    font-weight: 400;
+}
+
+body._lock {
+    overflow: hidden;
+}
+
+input[type=email],input[type=tel],input[type=text],textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.no-scroll {
+	overflow-y: hidden;
+}
+
+/* ==================================================================================== */
