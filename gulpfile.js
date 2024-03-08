@@ -108,8 +108,8 @@ function watching() {
     watch(['app/*.html']).on('change', browserSync.reload);
 }
 
-function cleanDist() {
-    return src('dist')
+function cleanDocs() {
+    return src('docs')
        .pipe(clean())
 }
 
@@ -126,7 +126,7 @@ function building() {
         'app/js/main.min.js',
         'app/**/*.html'
     ], {base : 'app'})
-       .pipe(dest('dist'))
+       .pipe(dest('docs'))
 }
 
 exports.styles = styles;
@@ -141,5 +141,5 @@ exports.php = php;
 exports.watching = watching;
 
 
-exports.build = series(cleanDist, building);
+exports.build = series(cleanDocs, building);
 exports.default = parallel(styles, images, scripts, phpMailer, php, pages, watching);
