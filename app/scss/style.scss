@@ -908,7 +908,6 @@
             &._error {
                 border-bottom: 1px solid rgba(194, 29, 29, 0.4);
 
-                &::placeholder,
                 &::placeholder {
                     color: rgba(194, 29, 29, 0.4);
                 }
@@ -931,15 +930,13 @@
             text-transform: uppercase;
             outline: none;
             margin-bottom: 44px;
-
-            &._error {
-                border-bottom: 1px solid rgba(194, 29, 29, 0.4);
-            }
+            transition: all 0.2s ease-in;
         }
 
         &__input::placeholder,
         &__textarea::placeholder {
             color: rgba(157, 164, 189, 0.40);
+            transition: all 0.2s ease-in;
         }
 
         &__input:hover::placeholder,
