@@ -88,6 +88,7 @@
 
     &__list-link {
         color: inherit;
+        transition: all 0.2s ease-in;
     }
 
     &__list-link:hover {
@@ -113,6 +114,7 @@
         line-height: normal;
         letter-spacing: 1.08px;
         text-transform: uppercase;
+        transition: all 0.2s ease-in;
     }
 
     &__list-link.contacts--button:hover {
@@ -308,6 +310,7 @@
     font-weight: 600;
     line-height: normal;
     letter-spacing: 2.2px;
+    transition: all 0.2s ease-in;
 }
 
 
@@ -729,6 +732,13 @@
     &__inner-item {
         max-width: 370px;
         text-align: center;
+        transition: all 0.2s ease-in;
+        cursor: pointer;
+    }
+
+    &__inner-item:hover {
+        opacity: 0.9;
+        transform: translateY(-5px);
     }
 
     &__inner-item-img {
@@ -780,6 +790,14 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            transition: all 0.2s ease-in;
+        }
+
+        a.barbers__inner-instagram:hover,
+        a.barbers__inner-twitter:hover,
+        a.barbers__inner-facebook:hover,
+        a.barbers__inner-linkedin:hover {
+            transform: scale(1.2);  
         }
 
         a.barbers__inner-instagram:hover svg g,
@@ -787,6 +805,7 @@
         a.barbers__inner-facebook:hover svg path,
         a.barbers__inner-linkedin:hover svg g {
             fill: #FF6C00;
+            transition: all 0.2s ease-in;
         }
     }
 }
@@ -811,6 +830,12 @@
 
     &__inner-item {
         max-width: 270px;
+        transition: all 0.2s ease-in;
+    }
+
+    &__inner-item:hover {
+        opacity: 0.9;
+        transform: translateY(-5px);
     }
 
     &__wrapper {
@@ -878,6 +903,7 @@
             letter-spacing: 1.1px;
             text-transform: uppercase;
             outline: none;
+            transition: all 0.2s ease-in;
 
             &._error {
                 border-bottom: 1px solid rgba(194, 29, 29, 0.4);
