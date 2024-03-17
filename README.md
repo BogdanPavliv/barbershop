@@ -7,7 +7,7 @@
 - html,
 - scss,
 - phpmailer,
-- js,
+- javascript,
 - php,
 - flex boxes,
 - grid,
